@@ -1,0 +1,27 @@
+body, html{
+    height: 100%;
+}
+
+.full-page{
+    height: 100%;
+    padding: 25px;
+}
+
+.card-holder{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.card{
+    background-color: gray;
+    padding: 5px;
+    width: 200px;
+    border: 2px;
+    border-radius: 10px;
+}
+
+.card p {
+    margin: 0;
+}

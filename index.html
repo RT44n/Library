@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="full-page">
+      <div class="header"></div>
+      <div class="main-content">
+        <button class="add-book">Add</button>
+        <dialog class="modal">
+          <form method="dialog" class="form">
+            <label for="bookTitle">Title:</label>
+            <input type="text" name="bookTitle" id="bookTitle" />
+            <label for="bookAuthor">Author:</label>
+            <input type="text" name="bookAuthor" id="bookAuthor" />
+            <label for="bookPages">Pages</label>
+            <input type="number" name="bookPages" id="bookPages" />
+            <label for="bookUnread">Read</label>
+            <label for="bookRead">Status</label>
+            <select name="bookRead" id="bookRead">
+              <option value="Completed">Completed</option>
+              <option value="Planned">Planned</option>
+            </select>
+            <button class="submit-btn" type="submit">Submit</button>
+          </form>
+        </dialog>
+        <div class="card-holder"></div>
+      </div>
+    </div>
+    <script defer src="index.js"></script>
+  </body>
+</html>
